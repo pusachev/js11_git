@@ -1,0 +1,5 @@
+test.txt
+*.txt
+images/*
+!images/.gitkeep
+.idea/
