@@ -9,6 +9,16 @@
 <body>
 Hello from branch develop new added 
 Hello from branch main ddd
+    <p id="counter">0</p>
+    <button id="count" onclick="addCount()">Count</button>
 <a></a>
+    <script>
+        let count = 0;
+        function addCount () {
+            count++;
+            const p = getElementById("counter");
+            p.innerHtml = count;
+        }
+    </script>
 </body>
 </html>
